@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Bottlecapdash/static/css/main.fadbab7d.chunk.css",
-    "main.js": "/Bottlecapdash/static/js/main.051824bc.chunk.js",
-    "main.js.map": "/Bottlecapdash/static/js/main.051824bc.chunk.js.map",
-    "runtime-main.js": "/Bottlecapdash/static/js/runtime-main.a3bbcc1d.js",
-    "runtime-main.js.map": "/Bottlecapdash/static/js/runtime-main.a3bbcc1d.js.map",
-    "static/js/2.9aa85855.chunk.js": "/Bottlecapdash/static/js/2.9aa85855.chunk.js",
-    "static/js/2.9aa85855.chunk.js.map": "/Bottlecapdash/static/js/2.9aa85855.chunk.js.map",
-    "static/js/3.74fc30b4.chunk.js": "/Bottlecapdash/static/js/3.74fc30b4.chunk.js",
-    "static/js/3.74fc30b4.chunk.js.map": "/Bottlecapdash/static/js/3.74fc30b4.chunk.js.map",
-    "index.html": "/Bottlecapdash/index.html",
-    "static/css/main.fadbab7d.chunk.css.map": "/Bottlecapdash/static/css/main.fadbab7d.chunk.css.map",
-    "static/js/2.9aa85855.chunk.js.LICENSE.txt": "/Bottlecapdash/static/js/2.9aa85855.chunk.js.LICENSE.txt",
-    "static/media/BottleCap_Logo.4b835454.svg": "/Bottlecapdash/static/media/BottleCap_Logo.4b835454.svg",
-    "static/media/hand.d4a009a2.png": "/Bottlecapdash/static/media/hand.d4a009a2.png",
-    "static/media/load.35be0998.gif": "/Bottlecapdash/static/media/load.35be0998.gif",
-    "static/media/logo-sapporo.223799fd.png": "/Bottlecapdash/static/media/logo-sapporo.223799fd.png"
+    "main.css": "/dashboard/static/css/main.fadbab7d.chunk.css",
+    "main.js": "/dashboard/static/js/main.3c86dcb7.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.3c86dcb7.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.43bc88e7.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.43bc88e7.js.map",
+    "static/js/2.ceeb9ead.chunk.js": "/dashboard/static/js/2.ceeb9ead.chunk.js",
+    "static/js/2.ceeb9ead.chunk.js.map": "/dashboard/static/js/2.ceeb9ead.chunk.js.map",
+    "static/js/3.34db1d5d.chunk.js": "/dashboard/static/js/3.34db1d5d.chunk.js",
+    "static/js/3.34db1d5d.chunk.js.map": "/dashboard/static/js/3.34db1d5d.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "static/css/main.fadbab7d.chunk.css.map": "/dashboard/static/css/main.fadbab7d.chunk.css.map",
+    "static/js/2.ceeb9ead.chunk.js.LICENSE.txt": "/dashboard/static/js/2.ceeb9ead.chunk.js.LICENSE.txt",
+    "static/media/Scale-01.40c7b9a6.png": "/dashboard/static/media/Scale-01.40c7b9a6.png",
+    "static/media/hand.d4a009a2.png": "/dashboard/static/media/hand.d4a009a2.png",
+    "static/media/load.35be0998.gif": "/dashboard/static/media/load.35be0998.gif",
+    "static/media/logo-sapporo.223799fd.png": "/dashboard/static/media/logo-sapporo.223799fd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3bbcc1d.js",
-    "static/js/2.9aa85855.chunk.js",
+    "static/js/runtime-main.43bc88e7.js",
+    "static/js/2.ceeb9ead.chunk.js",
     "static/css/main.fadbab7d.chunk.css",
-    "static/js/main.051824bc.chunk.js"
+    "static/js/main.3c86dcb7.chunk.js"
   ]
 }

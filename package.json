@@ -1,6 +1,6 @@
 { 
-  "homepage": "https://bottlecapxp.github.io/Bottlecapdash/",
-  "name": "bottlecapdash",
+  "homepage": "https://entouragecorp.github.io/dashboard/",
+  "name": "dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

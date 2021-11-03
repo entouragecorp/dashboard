@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/BottleCap_Logo.svg'
+import Logo from '../assets/Scale-01.png'
 import '../styles/Sidebar.scss'
 import Hand from '../assets/hand.png'
 
@@ -12,12 +12,12 @@ const SideBar = (props) => {
   return(
     <div id='SideBar_wrapper'>
         <div id='logo'>    
-        <img src={Logo} alt='Logo' />   
+        <img style={{width: '10vw', marginBottom: '10px', marginLeft: '-0.3vw'}} src={Logo} alt='Logo' />   
         </div>
         <div id='menu_wrapper'> 
         
        <div>
-       Hello Member! Welcome to BottleCap's Beta Portal
+       Hello Member! Welcome to Scale Projects Beta Portal
        <img style={{width: '20px'}} src={Hand} alt='' />
       </div>
         
@@ -30,4 +30,5 @@ const SideBar = (props) => {
 
  }
 
-export default SideBar
+
+ 

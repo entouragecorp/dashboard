@@ -35,4 +35,4 @@ const Cards = (props) => {
 
 export default Cards
 
-// <img style={{width: '60px', height: '45px'}} src={SapporoLogo} alt=''/>
+// <img style={{width: '60px', height: '45px'}} src={SapporoLogo} alt=''/>-m
