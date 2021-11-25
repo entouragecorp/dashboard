@@ -1,0 +1,31 @@
+#header_wrapper{
+    width: 100%;
+    height: 5vh;
+    // background-color: rgba(0, 0, 0, 0.247);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+#id_card{
+    background: #F0F0F3;
+border: 0.774553px solid #848484;
+box-sizing: border-box;
+box-shadow: -3.09821px -3.09821px 9.29464px #FFFFFF, 7.74553px 7.74553px 23.2366px rgba(174, 174, 192, 0.4);
+border-radius: 11.6183px;
+margin: 0px 30px 0px 30px;
+    #id_{
+        height:3vh; 
+        width: 3vh;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            margin: 0px;
+        }
+        }
+}
+
+}
