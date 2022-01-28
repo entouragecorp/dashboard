@@ -10,9 +10,14 @@ import { Link } from 'react-router-dom'
 **/
 
 const Cards = (props) => {
-    console.log(props.total)
 
-    const card_list = [{name: 'Blood Orange', total: props.id === 0?props.total:''}, {name: 'Sweet & Sour', total: props.id === 1?props.total:''}, {name: 'Watermelon', total: props.id === 2?props.total:''}]
+    const card_list = [
+      {name: 'Blood Orange', total: props.id === 0?props.total:''},
+      {name: 'Sweet & Sour', total: props.id === 1?props.total:''},
+      {name: 'Watermelon', total: props.id === 2?props.total:''},
+      {name: 'Mango Haze', total: props.id === 3?props.total:''},
+      {name: 'Space Cake', total: props.id === 4?props.total:''}
+    ]
     const card_num = [767]
 
 

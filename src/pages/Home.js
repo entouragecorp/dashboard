@@ -19,20 +19,24 @@ const Home = (props) => {
     var i
     const [id, setId] = useState(null)
 
-    useEffect(()=>{     
+    useEffect(()=>{
     },[])
 
-const submit = (link) => { 
+const submit = (link) => {
     setId(link)
-    const links = ['https://bottlecapdev.pythonanywhere.com/return_bloodorange_status','https://bottlecapdev.pythonanywhere.com/return_sweetsour_status','https://bottlecapdev.pythonanywhere.com/return_watermelon_status']
+    const links = [
+      'https://bottlecapdev.pythonanywhere.com/return_bloodorange_status',
+      'https://bottlecapdev.pythonanywhere.com/return_sweetsour_status',
+      'https://bottlecapdev.pythonanywhere.com/return_watermelon_status',
+      'https://bottlecapdev.pythonanywhere.com/return_mango_status',
+      'https://bottlecapdev.pythonanywhere.com/return_spacecake_status',
+    ]
     fetch(links[link],{
         method: 'GET',
         headers: {'Content-Type': 'application/json',}
     }).then(response => response.json())
     .then((resp)=>{
-        console.log(resp)
         for(i=0; i<resp.data.length; i++){
-            console.log(resp.data[i].dob)
             data_from_db.push({'name': resp.data[i].fullname, 'province': resp.data[i].province, 'email': resp.data[i].email, 'points': resp.data[i].points, 'store': resp.data[i].store, 'dob': resp.data[i].dob})
             data_list.push({'name': resp.data[i].fullname, 'province': resp.data[i].province, 'email': resp.data[i].email, 'points': resp.data[i].points, 'store': resp.data[i].store, 'dob': resp.data[i].dob})
             setDataCheck(data_from_db)
@@ -49,12 +53,11 @@ const submit = (link) => {
         <div id='content_holder'>
             <Header />
             <div id='content_wrapper'>
-               { console.log(id)}
             <Cards submit={submit} id={id} total={length}/>
 
 
             <div id='table_content'>
-            <table> 
+            <table>
                 <tbody>
                 <tr>
                     <th>Name</th>
@@ -71,33 +74,33 @@ const submit = (link) => {
                 {
                          dataCheck.map((data, index) =>{
                             return(
-                                <tr>
-                                    <td key={index}>{data.name}</td>
-                                    <td key={index}>{data.store}</td>
-                                    <td key={index}>{data.province}</td>
-                                    <td key={index}>{data.email}</td>
-                                    {/* <td key={index}>{data.tel}</td> */}
-                                    <td key={index}>{data.points}</td>
-                                    <td key={index}>{data.dob}</td>
-                                    {/* <td key={index}>{data.ballots}</td> */}
-           
+                                <tr key={index}>
+                                    <td>{data.name}</td>
+                                    <td>{data.store}</td>
+                                    <td>{data.province}</td>
+                                    <td>{data.email}</td>
+                                    {/* <td>{data.tel}</td> */}
+                                    <td>{data.points}</td>
+                                    <td>{data.dob}</td>
+                                    {/* <td>{data.ballots}</td> */}
+
                                 </tr>
-                               
+
                             )
                         })
                 }
-                    
+
                 </tbody>
 
-    
+
             </table>
             </div>
             <Footer data={csv}/>
 
             </div>
-          
+
         </div>
-    
+
     </div>
    )
 
@@ -120,5 +123,5 @@ export default Home;
 //         }
 //         setLength(resp.id.length)
 //     })
-        
+
 // },[])
