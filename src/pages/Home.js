@@ -29,7 +29,7 @@ const submit = (link) => {
       'https://bottlecapdev.pythonanywhere.com/return_sweetsour_status',
       'https://bottlecapdev.pythonanywhere.com/return_watermelon_status',
       'https://bottlecapdev.pythonanywhere.com/return_mango_status',
-      'https://bottlecapdev.pythonanywhere.com/return_spacecake_status',
+      'https://bottlecapdev.pythonanywhere.com/return_spacecake_status'
     ]
     fetch(links[link],{
         method: 'GET',
